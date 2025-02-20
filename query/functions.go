@@ -4,8 +4,6 @@ import (
 	"database/sql"
 	_ "fmt"
 	"log"
-
-	_ "github.com/lib/pq" // PostgreSQL 驅動程式
 )
 
 // Query 函數動態處理 SQL 結果
